@@ -1,0 +1,527 @@
+[
+  
+  {
+  "id" : 0,
+  "sname" :"Choose Your State",
+  "districts" : [
+    {
+    "did" : 0,
+    "dname" : "Choose Your City",
+    "beds" : [],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+    }]
+  },
+  {
+  "id" : 1,
+  "sname" :"Delhi",
+  "districts" : [
+    {
+    "did" : 0,
+    "dname" : "Choose Your City",
+    "beds" : [],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+    },
+    {
+    "did" : 1,
+    "dname" : "Delhi",
+    "oxygen" : [
+      {"name": "Waseem Gases",
+       "no": "9810114388"},
+      {"name" : "Not Available",
+       "no" :"9953736646"},
+      {"name" : "Sukhwinder Singh",
+       "no" :"8743014143"}, 
+      {"name" : "Sawaabsamaj Foundation",
+       "no" :"9818936934 , 9971265674"}, 
+      {"name" : "Upkar Singh",
+       "no" :"9911111313"},
+      {"name" : "Abhishek",
+       "no" :"9811043229"},
+      {"name" : "Jas Angad Singh",
+       "no" :"8860160001"},
+      {"name" : "Kamal Jeet Singh",
+       "no" :"9810458567"},
+      {"name": "Billaveer",
+       "no": "9899567999, 8929222502"},
+      {"name" : "marwari yuva manch",
+       "no" :"9211162600, 9953545358"},
+      {"name" : "Tulsi Multi-Speciality Hospital",
+       "no" :"8410445275, 8368769040"}, 
+      {"name" : "Seth Traders Oxygen",
+       "no" :"9811136654"}, 
+      {"name" : "Prabhjit Singh",
+       "no" :"9873555655"}
+       ],
+    "plasma" : [
+        {"name": "ILBS Hospital",
+       "no": "146300000, 8448884344",
+        "link": ""
+      },
+      {"name": "Dhoondh",
+       "no": "",
+       "link": "https://dhoondh.com"
+      }, 
+      {"name": "Plasma Donor",
+       "no": "",
+       "link": "https://plasmadonor.in"
+      },
+      {"name": "Need Plasma",
+       "no": "",
+        "link": "https://needplasma.in"
+      },
+      {"name": "Plasma Line",
+       "no": "",
+        "link": "https://plasmaline.in"
+      },
+      {"name": "KAB Welfare Foundation",
+       "no": "9810063261",
+        "link": "https://kamlaarorablessings.com"
+      }, 
+      {"name": "NDTV Plasma donation initiative",
+       "no": "9910668811(WhatsApp)",
+        "link": ""
+      },
+      {"name": "Delhi Fights Corona",
+       "no": "",
+        "link": "https://delhifightscorona.in/requestplasma/"
+      },
+      {"name": "Pint Network",
+       "no": "",
+        "link": "pintnetwork.com"
+      }, 
+      {"name": "DYFI Delhi",
+       "no": "8587099288",
+        "link": "dyfidelhi@gmail.com"
+      },
+      {"name": "Friends 2 Support",
+       "no": "",
+        "link": "https://www.friends2support.org/"}],
+    "remdesivir": [
+      {"name": "Alniche Life Sciences Pvt. Ltd.",
+       "no": "9811684785",
+        "link": ""
+      },
+      {"name": "AN Pharma",
+       "no": "9873000393",
+        "link": ""
+      }, 
+      {"name": "Medilink",
+       "no": "9999359301",
+        "link": ""
+      },
+      {"name": "White Pharmaceuticals",
+       "no": "9873667666",
+        "link": ""
+      },
+      {"name": "Cipla",
+       "no": "9810699965",
+        "link": "www.cipla.com"
+      },
+      {"name": "Hetero",
+       "no": "040-40473535",
+        "link": "www.heterohealthcare.com"
+      }, 
+      {"name": "AARK Pharamceuticals",
+       "no": "8800300119, 9310155905",
+        "link": ""
+      },
+      {"name": "Jubliant",
+       "no": "9819857718",
+        "link": "Vikas.bansi@jubl.com"
+      },
+      {"name": "Mylan",
+       "no": "7829980066",
+       "link": "www.mylan.in"
+      },
+      {"name": "British Medideals",
+       "no": "91 11 4704 6622",
+       "link": ""
+      }, 
+      {"name": "Novacare",
+       "no": "91 11 4241 9800",
+       "link": ""
+      },
+      {"name": "Pharma Cube",
+       "no": "9711335955",
+       "link": ""
+      },
+      {"name": "Pharma Search",
+       "no": "9811020172",
+        "link": ""
+      },
+      {"name": "Sai agencies",
+       "no": "9689609153",
+        "link": ""
+      }, 
+      {"name": "Apollo Pharmacy",
+       "no": "8826992305",
+        "link": ""
+      }],
+    "doctor" : [
+      
+      {"name": "Indian Medical Association",
+       "no": "+919999672238, +919999672239 ",
+       "link": "Helpline 24x7"
+      },
+      {"name": "DELHI GOVT LANDLINE HELPLINE",
+       "no": "011-22307145",
+        "link": ""
+      }, 
+      {"name": "AVM Pradeep Kumar",
+       "no": "9818555981",
+        "link": "co-ordination"
+      },
+      {"name": "Dr Tushar Shah",
+       "no": "9321469911",
+        "link": "Medicine consultantion"
+      },
+      {"name": "Dr M Bhatt",
+       "no": "9320407074",
+        "link": "Medicine consultantion"
+      },
+      {"name": "Dr N Zaver",
+       "no": "9321489748",
+        "link": "telephonic guidance (4pm - 8pm)"
+      }, 
+      {"name": "Dr L Kedia",
+       "no": "9321489060",
+        "link": "telephonic guidance (4pm - 8pm)"
+      },
+      {"name": "Dr S Ansari",
+       "no": "7045720278",
+        "link": "telephonic guidance (4pm-8pm)"
+      },
+        {"name": "Dr S Halwai",
+       "no": "9867379346",
+        "link": "telephonic guidance (4pm-8pm)"
+      },
+      {"name": "Dr M Kotian",
+       "no": "8928650290",
+        "link":"telephonic guidance (4pm-8pm)"
+      }, 
+      {"name": "Dr N Kumar",
+       "no": "8104605550",
+        "link":"telephonic guidance (8pm-11pm)"
+      },
+      {"name": "Dr P Bhargay",
+       "no": "9833887603",
+        "link": "telephonic guidance (8pm-11pm)"
+      },
+      {"name": "Dr R Chauhan",
+       "no": "9892135010",
+        "link": "telephonic guidance (8pm-11pm)"
+      },
+      {"name": "Dr B Kharad",
+       "no": "9969471815",
+        "link":"telephonic guidance (8pm-11pm)"
+      }, 
+      {"name": "Dr S Dhulekar",
+       "no": "9892139027",
+        "link":"telephonic guidance (8pm-11pm)"
+      },
+      {"name": "Dr S Pandit",
+       "no": "9422473277",
+        "link":"telephonic guidance (8pm-11pm)"
+      }
+      ],
+    "beds" : [
+      {"name": "DRDO Hospital",
+       "no": "9968503421, 9810296630"},
+      {"name" : "Rajiv Mathur",
+       "no" :"9650832877"},
+      {"name" : "Guru Teg bahadur Hospital",
+       "no" :"9625900725"}, 
+      {"name" : "Tulsi Multi-Speciality Hospital",
+       "no" :"8410445275, 8368769040"}, 
+      {"name" : "Ambedkar Nagar Hospital",
+       "no" :"9971747783"},
+      {"name" : "Delhi ESIC",
+       "no" :"9540711777"},
+      {"name" : "Gagan",
+       "no": "7838348237"}
+       ],
+    "test" : [
+      {"name": "Apollo",
+       "no": "18605001066"},
+      {"name" : "Saral Lab",
+       "no" :"011-471111, 9580007000"},
+      {"name" : "Dr.Lal Path Labs",
+       "no" :"0120-3988505"}, 
+      {"name" : "Max Hospital",
+       "no" :"0120-4868010"}, 
+      {"name" : "DODA Covid Test",
+       "no" :"96431 06752"},
+      {"name" : "Metropolis",
+       "no" :"18004126949"},
+      {"name" : "Kailash",
+       "no" :"011-2102444444"}],
+    "link": "https://coronabeds.jantasamvad.org/",
+    "ambulance":"8822288222 (24x7)"}
+    ]
+  },
+  {
+  "id" : 2,
+  "sname" :"West Bengal",
+  "districts" : [
+    {
+    "did" : 0,
+    "dname" : "Choose Your City",
+    "beds" : [],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+    },
+    {
+    "did" : 1,
+    "dname" : "Kolkata",
+    "beds" : [
+      {"name": "Real-time Bed- -availablity ",
+       "no": "https://www.wbhealth.gov.in/pages/corona/bed_availability"},
+      {"name" : "Jibandaan Home Quarantine(ventilation)",
+      "no": "9163437940(10AM-8PM)[Mon-Sat]"}
+      ],
+    "oxygen" : [
+      {"name": "Aryan Oxygen",
+       "no": "9007427926"},
+      {"name" : "Kss Oxygen",
+       "no" :"9674508854"},
+      {"name" : "Saikat kundu",
+       "no" :"9007307499"}, 
+      {"name" : "Sujata Dutta",
+       "no" :"8420004004"}, 
+      {"name" : "Sayan Das",
+       "no" :"7980636271"},
+      {"name" : "Fyrax India",
+       "no" :"9836565064"}      
+      ],
+    "plasma" : [{"name": "SSKM Hospital Blood Bank",
+       "no": "033 2223- 6026",
+        "link": "Not picking up"
+      }],
+    "remdesivir":[
+      {"name": "Deep Shah",
+       "no": "8097253459, 8999375256",
+        "link": "Remdesivir 100, Actimera 400"
+      },
+      {"name": "Pankaj Thakur",
+       "no": "8433946055",
+        "link": "Hetero and Cipla"
+      }, 
+      {"name": "Bhavesh Shah",
+       "no": "9821044912",
+        "link": "Hetero and Cipla"
+      },
+      {"name": "Rudra",
+       "no": "9833809177",
+        "link": "Hetero and Cipla"
+      },
+      {"name": "Shubhadeep Sinha",
+       "no": "9393922434",
+        "link": "Hetero and Cipla"
+      },
+      {"name": "Nexus",
+       "no": "9664400575",
+        "link": "Distributors"
+      }, 
+      {"name": "Royal",
+       "no": "9820344456",
+        "link": "Distributors"
+      },
+      {"name": "Hetero",
+       "no": "9320985814(WhatsApp)",
+        "link": ""
+      }],
+    "doctor" :[
+      {"name": "Tribbeca Care",
+       "no": "9830490374",
+       "link": "Call in any health emergency, medicine"
+      }
+      ],
+    "test" : []
+    }]
+  },
+  {
+  "id" : 3,
+  "sname" :"Maharastra",
+  "districts" : [
+    {
+    "did" : 0,
+    "dname" : "Choose Your City",
+    "beds" : [],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+    },
+    {
+    "did" : 1,
+    "dname" : "Mumbai",
+    "beds" : [],
+    "oxygen" : [
+      {"name":"Hemkunt Foundation", "no" : "Versova Gurudwara (verified)"},
+      {"name":"Olive Trust (Jogeshwari W)", 
+        "no":"9819985860"
+      },
+      {"name":"Shafiq Mumbra", 
+        "no":"9167676102"
+      }
+      ],
+    "plasma" : [],
+    "remdesivir":[
+    {"name" : "Rajesh Bankar", "no" : "08308465495", "link" : "Distributor"},
+    {"name" : "Not available", "no" : "7738231529", "link" : "Verified 20 april, may be switch off now"}],
+    "doctor" :[
+      {"name" : "AAP Mumbai", "no" : "7718812200", "link" : "Verified, call for help, bed, oxygen."}],
+    "test" : []
+    },
+    {
+    "did" : 2,
+    "dname" : "Nagpur",
+    "beds" : [{"name": "Kingsway Hospital",
+       "no": "8263915152, 8767807230"},
+      {"name" : "NMC's Corona Control Room",
+       "no" :"0712-2567021"}],
+    "oxygen" : [{"name": "Naresh",
+       "no": "9372723733"},
+      {"name" : "Ravindra",
+       "no" :"9371850278"},
+      {"name" : "Sunil",
+       "no" :"9422106522"}, 
+      {"name" : "Ninad",
+       "no" :"9823039389"}, 
+      {"name" : "Santosh",
+       "no" :"9975452397"},
+      {"name" : "Hemant",
+       "no" :"9422101036"},
+      {"name" : "Munna",
+       "no" :"9822921955"},
+      {"name" : "Sourabh",
+       "no" :"9028492098"}],
+    "plasma" : [
+      {"name": "Sandeep Vaid",
+       "no": "9022842455",
+        "link": ""
+      },
+      {"name": "Prashish Charde",
+       "no": "9096084841",
+        "link": ""
+      }, 
+      {"name": "Mohmmad Master",
+       "no": "9822940792",
+        "link": ""
+      },
+      {"name": "Abhishek Goyal",
+       "no": "7020844518",
+        "link": ""
+      },
+      {"name": "Saloni Bhagwani",
+       "no": "7666190051",
+        "link": ""
+      },
+      {"name": "Harshit Jain",
+       "no": "7773952341",
+        "link": ""
+      }, 
+      {"name": "Yash Goya",
+       "no": "8208682804",
+        "link": ""
+      }
+    ],
+    "remdesivir":[
+      {"name" : "Samir", "no" : "9987438888", "link" : "remdesivir@999, Documents required."}],
+    "doctor" :[],
+    "test" : []
+    },
+    {
+    "did" : 3,
+    "dname" : "Pune",
+    "beds" : [
+      {"name":"prakash hospital(walwa,3.5hr from pune)","no":"9225361919"}],
+    "oxygen" : [
+      {"name":"Ecomed solutions",
+      "no" :"9403004893"}
+      ],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+    }
+    
+    ]
+    
+  },
+  {
+  "id" : 4,
+  "sname" :"Bihar",
+  "districts" : [
+    {
+    "did" : 0,
+    "dname" : "Choose Your City",
+    "beds" : [],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+    },
+    {
+    "did" : 1,
+    "dname" : "Patna",
+    "beds" : [
+      {"name": "Galaxy Heart Hospital",
+       "no": "9431291930"},
+      {"name" : "Christian Medical Centre & Hospital",
+       "no" :"9748899525"},
+      {"name" : "K.K. hospital",
+       "no" :"7004406669"}],
+    "oxygen" : [],
+    "plasma" : [
+      {"name": "Paras HMIRI Hospital Blood Bank ",
+       "no": "0612-7107777",
+        "link": "was stock over, you can try"
+      },{"name": "Indian Red Cross Society",
+       "no": "0612-2234869",
+        "link": "not picking up"
+      }],
+    "remdesivir":[
+      {"name": "KVD Agencies",
+       "no": "0612-2301980",
+        "link": "was stock over, you can try"
+      },
+      {"name": "King Enterprises",
+       "no": "0612-2254045",
+        "link": "not picking"
+      }, 
+      {"name": "New puran Medical Agency",
+       "no": "sarraf palace, Govind Mitra RDP.O. Bankipur, P.S. pirbahore",
+        "link": ""
+      }],
+    "doctor" :[],
+    "test" : []
+    },
+    {
+    "did" : 2,
+    "dname" : "Muzaffarpur",
+    "beds" : [],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+    }
+    ]
+  }
+  
+  
+]
