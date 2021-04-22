@@ -293,7 +293,7 @@ Contact :
       <div className={classes.body}>
       <div className={classes.nav}>
       <p className={classes.navt}>
-Covid India Resources
+Covid Resources India
       </p>
       </div>
 
@@ -302,7 +302,7 @@ Covid India Resources
       {totalstate}
       </select>
       <br />
-      <select className={classes.select} onChange={this.dhandler}>
+      <select className={classes.select} onChange={this.dhandler} value = {this.state.district}>
       {totald}
       </select>
     {this.state.district > 0 ?
