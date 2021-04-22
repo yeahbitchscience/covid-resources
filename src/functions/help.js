@@ -19,7 +19,7 @@ const Help = (props) => {
   if (props.show === true) {
     content = <div>
       <p className={classes.small}>
-This Website is a Non-Profit Initiative to Help People in this Chaos. It is Developed and Managed by a single person i.e. me and I am totally dependent on people from different parts of this country who are continuously sending me reports and covid resources. You can also volunteer by sending me necessary life-saving resources so I can update them on this website. You can also verify and check available resources to improve this Website.
+This Website is a Non-Profit Initiative to Help People in this Chaos. It is Developed and Managed by a single person i.e. me and I am totally dependent on people from different parts of this country who are continuously sending me reports and covid resources. You can volunteer by sending me necessary life-saving resources so I can update them on this website. You can also verify and check available resources to improve this Website.
       </p>
 
       <div className={classes.icons}>

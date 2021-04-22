@@ -8,7 +8,7 @@ import Infobox from "../functions/infobox.js";
 import Breakline from '../functions/breakline.js';
 import hope from '../assets/hope.jpeg';
 import No from '../functions/no.js';
-
+import Loading from '../functions/loading.js'
 
 class Covid extends Component {
 
@@ -22,9 +22,12 @@ class Covid extends Component {
     showremdesivir: false,
     showdoctor: false,
     showtest: false,
-    statedata: data
+    loading :true
   }
+  
 
+
+  
   navchangehandler = () => {
     this.setState({
       shownav: !this.state.shownav
@@ -84,6 +87,7 @@ class Covid extends Component {
   }
 
   render() {
+    setTimeout(() =>{this.setState({loading: false})}, 3000);
 
     let totalstate = data.map(a => {
       return <option value={a.id}>{a.sname} </option>
@@ -318,6 +322,8 @@ Contact :
     }
 
     return(
+      <>{this.state.loading ?
+      <Loading /> :
       <div className={classes.body}>
       <div className={classes.nav}>
       <p className={classes.navt}>
@@ -391,7 +397,7 @@ Proudly created by Sanskar Raj
       </p>
       </div>
     </div>
-  )
+  }</>)
 }
 }
 
