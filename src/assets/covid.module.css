@@ -173,3 +173,11 @@
   font-weight: bolder;
   font-style: italic;
 }
+
+.no {
+  color: #E76F51;
+  padding: 0.5rem;
+  margin: 0px;
+  font-size: 0.6rem;
+  font-weight: 900;
+}

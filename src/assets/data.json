@@ -2,10 +2,12 @@
   {
   "id" : 0,
   "sname" :"Choose Your State",
-  "districts" : [{
+  "districts" : [
+    {
     "did" : 0,
     "dname" : "Choose Your City",
     "beds" : [],
+    "ambulance":[],
     "oxygen" : [],
     "plasma" : [],
     "remdesivir":[],
@@ -23,6 +25,7 @@
       "beds" : [],
       "oxygen" : [],
       "plasma" : [],
+      "ambulance":[],
       "remdesivir":[],
       "doctor" :[],
       "test" : []
@@ -119,6 +122,12 @@
             "no" :"9873555655",
             "link": ""
           }],
+        "ambulance":[
+      {"name": "",
+       "no": "8822288222",
+        "link": "24x7"
+      }
+          ],
         "plasma" : [{
           "name": "ILBS Hospital",
           "no": "146300000, 8448884344",
@@ -330,6 +339,10 @@
             "link":"telephonic guidance (8pm-11pm)"
           }],
         "beds" : [
+      {"name": "Delhi gov bed available",
+       "no": "https://coronabeds.jantasamvad.org/",
+        "link": "only gov hospital"
+      },
           {"name": "Sakurbasti covid care",
            "no": "9958678758",
            "link": "oxy train coach beds(o2 below 85) "},
@@ -408,19 +421,95 @@
             "name": "Kailash",
             "no" :"011-2102444444",
             "link": ""
-          }],
-        "link": "https://coronabeds.jantasamvad.org/",
-        "ambulance":"8822288222 (24x7)"
+          }]
       }]
   },
   {
-    "id" : 2,
+  "id" : 2,
+  "sname" :"Karnataka",
+  "districts" : [
+   {
+    "did" : 0,
+    "dname" : "Choose Your City",
+    "beds" : [],
+    "oxygen" : [],
+    "ambulance":[],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  },
+   {
+    "did" : 1,
+    "dname" : "Bengluru",
+    "beds" : [
+      {"name": "Detailed Bed Availability",
+       "no": "",
+       "link": "http://apps.bbmpgov.in/covidbedstatus/"
+      }
+      ],
+    "oxygen" : [
+      {"name": "oxygen supply",
+       "no": "8660856709",
+        "link": "8000 for deposit, 500 refill"
+      },
+      {"name": "OXY HELP Crisis",
+       "no": "919945500113",
+       "link": "Jc nagar @5k, 8k"
+      },
+      {"name": "Thanisandra United Forum",
+       "no": "914161338, 9686871337, 9341211648, 9341884200",
+        "link": "@5000 free for poor"
+      }, 
+      {"name": "-",
+       "no": "8660856709",
+        "link": "Boomsandra"
+      },
+      {"name": "-",
+       "no": "8660856709",
+       "link": "Frazer Town"
+      }
+      ],
+    "plasma" : [
+      {"name": "HCL Plasma helpline",
+       "no": "7447118949",
+        "link": ""
+      },
+      {"name": "Banglore Medicinal Service",
+       "no": "8526723404",
+        "link": ""
+      }
+      ],
+    "ambulance" : [
+      {"name": "HelpNow",
+       "no": "8899889952,8822200000",
+        "link": ""
+      }
+      ],
+    "remdesivir":[
+      {"name": "-",
+       "no": "7019861430,9035796385",
+        "link": ""
+      },
+      {"name": "-",
+       "no": "7019861430,9035796385(whatsapp)",
+        "link": ""
+      }
+      ],
+    "doctor" :[],
+    "test" : []
+  }]
+  },  
+  {
+    "id" : 3,
     "sname" :"West Bengal",
-    "districts" : [{
+    "districts" : [
+      {
       "did" : 0,
       "dname" : "Choose Your City",
       "beds" : [],
       "oxygen" : [],
+      "ambulance":[],
       "plasma" : [],
       "remdesivir":[],
       "doctor" :[],
@@ -429,6 +518,7 @@
       {
         "did" : 1,
         "dname" : "Kolkata",
+        "ambulance":[],
         "beds" : [{
           "name": "Real-time Bed- -availablity ",
           "no": "https://www.wbhealth.gov.in/pages/corona/bed_availability",
@@ -523,13 +613,14 @@
       }]
   },
   {
-    "id" : 3,
+    "id" : 4,
     "sname" :"Maharastra",
     "districts" : [
       {
       "did" : 0,
       "dname" : "Choose Your City",
       "beds" : [],
+      "ambulance":[],
       "oxygen" : [],
       "plasma" : [],
       "remdesivir":[],
@@ -678,6 +769,7 @@
             "no" :"9028492098",
             "link": ""
           }],
+        "ambulance":[],
         "plasma" : [{
           "name": "Sandeep Vaid",
           "no": "9022842455",
@@ -806,7 +898,7 @@
 
   },
   {
-    "id" : 4,
+    "id" : 5,
     "sname" :"Bihar",
     "districts" : [
       {
@@ -814,6 +906,7 @@
       "dname" : "Choose Your City",
       "beds" : [],
       "oxygen" : [],
+      "ambulance":[],
       "plasma" : [],
       "remdesivir":[],
       "doctor" :[],
@@ -851,6 +944,7 @@
        "no": "8368524248",
        "link": "verified"}
           ],
+        "ambulance":[],
         "plasma" : [{
           "name": "Paras HMIRI Hospital Blood Bank ",
           "no": "0612-7107777",
@@ -883,6 +977,7 @@
         "dname" : "Muzaffarpur",
         "beds" : [],
         "oxygen" : [],
+        "ambulance":[],
         "plasma" : [],
         "remdesivir":[],
         "doctor" :[],
@@ -890,7 +985,7 @@
       }]
   },
   {
-  "id" : 5,
+  "id" : 6,
   "sname" :"Madhaya Pradesh",
   "districts" : [
     {
@@ -898,6 +993,7 @@
     "dname" : "Choose Your City",
     "beds" : [],
     "oxygen" : [],
+    "ambulance":[],
     "plasma" : [],
     "remdesivir":[],
     "doctor" :[],
@@ -910,6 +1006,7 @@
       {"name": "SR memorial hospital",
        "no": "6263919436",
        "link": ""}],
+    "ambulance":[],
     "oxygen" : [],
     "plasma" : [],
     "remdesivir":[],
@@ -919,7 +1016,7 @@
    ]
   },
   {
-  "id" : 6,
+  "id" : 7,
   "sname" :"Jammu and Kashmir",
   "districts" : [
     {
@@ -929,6 +1026,7 @@
     "oxygen" : [],
     "plasma" : [],
     "remdesivir":[],
+    "ambulance":[],
     "doctor" :[],
     "test" : []
   },
@@ -944,6 +1042,7 @@
         "no": "9797938140",
         "link": "verified @21/04 6pm"}
        ],
+    "ambulance":[],
     "plasma" : [],
     "remdesivir":[],
     "doctor" :[],
@@ -952,7 +1051,7 @@
   ]
 },
   {
-  "id" : 7,
+  "id" : 8,
   "sname" :"Uttarakhand",
   "districts" : [
     {
@@ -962,6 +1061,7 @@
     "oxygen" : [],
     "plasma" : [],
     "remdesivir":[],
+    "ambulance":[],
     "doctor" :[],
     "test" : []},
     {
@@ -974,10 +1074,552 @@
            "link": "verified"}      
       ],
     "plasma" : [],
+    "ambulance":[],
     "remdesivir":[],
     "doctor" :[],
     "test" : []
   }
    ]
+  },
+  {
+  "id" : 9,
+  "sname" :"Tamil Nadu",
+  "districts" : [
+   {
+    "did" : 0,
+    "dname" : "Choose Your City",
+    "beds" : [],
+    "ambulance":[],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  },
+   {
+    "did" : 1,
+    "dname" : "Chennai",
+    "beds" : [],
+    "ambulance":[],
+    "oxygen" : [],
+    "plasma" : [
+      {"name": "-",
+       "no": "-",
+        "link": "https://twitter.com/KKPNTK"
+      }
+      ],
+    "remdesivir":[      
+      {"name": "-",
+       "no": "8939169999",
+        "link": "@mrmedhq on Instagram and Facebook"
+      }],
+    "doctor" :[      
+      {"name": "Miot Hospital",
+       "no": "4442002288",
+        "link": "4/112, Mount Poonamalllee Road, Manapakkam, 6008"
+      },
+      {"name": "Mgm HealthCare Pvt Limited",
+       "no": "4445242407",
+        "link": "Manickam Road"
+      },
+      {"name": "Yein Udaan",
+       "no": "9962281029",
+        "link": " "
+      }],
+    "test" : []
   }
+  ]
+},
+  {
+  "id" : 10,
+  "sname" :"Rajasthan",
+  "districts" : [
+    {
+    "did" : 0,
+    "dname" : "Choose Your City",
+    "beds" : [],
+    "ambulance":[],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  },
+    {
+    "did" : 1,
+    "dname" : "Jaipur",
+    "beds" : [
+     {"name": "Shalby Chitrakot",
+       "no": "1417123889",
+        "link": ""
+      }, 
+      {"name": "Eternal Heart care centre",
+       "no": "9549659270",
+        "link": ""
+      },
+      {"name": "",
+       "no": "",
+        "link": ""
+      }
+      ],
+    "ambulance":[],
+    "oxygen" : [
+      {"name": "Ameria Enterprises",
+       "no": "9414073192",
+        "link": "verified"
+      },
+      {"name": "Ankur Agencies",
+       "no": "7947058802",
+        "link": ""
+      },
+      {"name": "Rescare",
+       "no": "7947065751",
+        "link": ""
+      }, 
+      {"name": "Mahalaxmi Gases",
+       "no": "+91 8068970640",
+        "link": ""
+      },
+      {"name": "Sareen Surgical Suppliers",
+       "no": "+91 8068442245",
+        "link": ""
+      }      
+      ],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  },
+    {
+    "did" : 2,
+    "dname" : "Alwar",
+    "beds" : [      
+      {"name": "Lords Hospital Alwar",
+       "no": "9351233471",
+        "link": "verified "
+      }],
+    "ambulance":[],
+    "oxygen" : [
+      {"name": "Krishna Welding House",
+       "no": "+91 8037179813",
+        "link": ""
+      },
+      {"name": "Amba Oxygen",
+       "no": "+91 8048020924",
+        "link": ""
+      },
+      {"name": "Ankit Gase",
+       "no": "+91 8048115761",
+        "link": ""
+      },
+      {"name": "Ajay Medicare",
+       "no": "+91 8048719216",
+        "link": ""
+      }
+      ],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  },
+    {
+    "did" : 3,
+    "dname" : "Udaipur",
+    "beds" : [{"name": "Pacific Medical College and Hospital ",
+       "no": "0294-3520000",
+        "link": "verified"
+      }],
+    "ambulance":[],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  },
+    {
+    "did" : 4,
+    "dname" : "Ajmer",
+    "beds" : [],
+    "ambulance":[],
+    "oxygen" : [
+      {"name": "Ankit Gases",
+       "no": "+91 8048115761",
+        "link": "+91 required"
+      },
+      {"name": "Panchalingala Oxygen Gas Company",
+       "no": "+91 8048796267",
+        "link": "SITUATED IN ANDHRA PRADESH;+91 required"
+      },
+      {"name": "Evron Biocraft Private Limited",
+       "no": "8048762074",
+        "link": "available after 23 april"
+      }
+      ],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  },
+    {
+    "did" : 5,
+    "dname" : "Kota",
+    "beds" : [],
+    "ambulance":[],
+    "oxygen" : [
+      {"name": "Ekta Enterprises",
+       "no": "8049591766",
+        "link": "stock over on 20/4, you can try."
+      }, 
+      {"name": "Agarwal Enterprises",
+       "no": "7971270418",
+        "link": "stock over on 20/4, you can try."
+      },
+      {"name": "saif care kota",
+       "no": "80488618360",
+        "link": ""
+      }      
+      ],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  },
+    {
+    "did" : 6,
+    "dname" : "Jodhpur",
+    "beds" : [],
+    "ambulance":[],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  }
+
+  ]
+},
+  {
+  "id" : 11,
+  "sname" :"Haryana and Punjab",
+  "districts" : [
+    {
+    "did" : 0,
+    "dname" : "Choose Your City",
+    "beds" : [],
+    "ambulance":[],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  },
+    {
+    "did" : 1,
+    "dname" : "All Cities",
+    "beds" : [
+      {"name": "Amar Hospital Paitala",
+       "no": "0175-2222002",
+        "link": ""
+      }, 
+      {"name": "Sadhbavna Hos Patiala",
+       "no": "0175-2219554",
+        "link": "Patiala"
+      },
+      {"name": "Prime Hospital",
+       "no": "0781-4189995",
+        "link": "Patiala"
+      },
+     {"name": "C.M.C. hospital",
+       "no": "9115514700",
+        "link": "Ludhiana"
+      },
+     {"name": "kadam hospital",
+       "no": "9518809328",
+        "link": "bhiwani"
+      },
+      {"name": "santosh hospital",
+       "no": "9416158466",
+        "link": "yamunanagar"
+      },
+      {"name": "gaba hospital",
+       "no": "01732 222 194",
+        "link": "yamunanagar"
+      }, 
+      {"name": "sanjeevani hospital",
+       "no": "0166 622 2221",
+        "link": "sirsa"
+      },
+      {"name": "paras hospital",
+       "no": "0172 529 4444",
+        "link": "panchkula"
+      },
+      {"name": "puspanjli hospital",
+       "no": "01274 260 021",
+        "link": "rewari"
+      },
+      {"name": "dayanand hospital",
+       "no": "094675 75442",
+        "link": "sonipat"
+      },
+      {"name": "shah satnam dera hospital",
+       "no": "01666-260222",
+        "link": "sirsa"
+      }       
+      ],
+    "ambulance":[],
+    "oxygen" : [
+     {"name": "kadam hospital",
+       "no": "9518809328",
+        "link": "bhiwani"
+      },
+      {"name": "santosh hospital",
+       "no": "9416158466",
+        "link": "yamunanagar"
+      },
+      {"name": "gaba hospital",
+       "no": "01732 222 194",
+        "link": "yamunanagar"
+      }, 
+      {"name": "sanjeevani hospital",
+       "no": "0166 622 2221",
+        "link": "sirsa"
+      },
+      {"name": "paras hospital",
+       "no": "0172 529 4444",
+        "link": "panchkula"
+      },
+      {"name": "puspanjli hospital",
+       "no": "01274 260 021",
+        "link": "rewari"
+      },
+      {"name": "dayanand hospital",
+       "no": "094675 75442",
+        "link": "sonipat"
+      },
+      {"name": "shah satnam dera hospital",
+       "no": "01666-260222",
+        "link": "sirsa"
+      } 
+      ],
+    "plasma" : [
+            {"name": "ivy hospital",
+       "no": "7170000",
+        "link": "Chandigarh, can arrange plasma"
+      },
+      {"name": "rotary bloodbank",
+       "no": "",
+        "link": "gurugran"
+      }, 
+      {"name": "max superspecialty",
+       "no": "5212000",
+        "link": "need to bring own donar"
+      }
+      ],
+    "remdesivir":[
+      {"name": "LOVELY MEDICAL AGENCY",
+       "no": "9812627569",
+        "link": "Not available currently @20/4"
+      },
+      {"name": "SWAMI MEDICAL HALL",
+       "no": "0183-5069915, 9872066608",
+        "link": ""
+      },
+     {"name": "MITTAL MEDICOS",
+       "no": "01636-221988 991492008",
+        "link": ""
+      }
+      ],
+    "doctor" :[],
+    "test" : [
+      {"name": "Modern",
+       "no": "8053911992",
+        "link": "Gurgaon"
+      }      
+      ]
+  }  
+  ]
+},
+  {
+  "id" : 12,
+  "sname" :"Gujrat",
+  "districts" : [
+    {
+    "did" : 0,
+    "dname" : "Choose Your City",
+    "beds" : [],
+    "ambulance":[],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  },
+  {
+    "did" : 1,
+    "dname" : "Ahmedabad",
+    "beds" : [
+      {"name": " life care multispeciality hospital",
+       "no": "7940204020",
+        "link": ""
+      },
+      {"name": "vedant multispeciality hospitals",
+       "no": "7567343493",
+        "link": ""
+      }      
+      ],
+    "ambulance":[
+      {"name": "Dalk Ambulance Service",
+       "no": "9099004779, 9909950107, 9909102108",
+        "link": ""
+      },
+      {"name": "Kings Air Ambulance",
+       "no": "7091360313",
+        "link": ""
+      }      
+      ],
+    "oxygen" : [
+      {"name": "Vardiani Tushar Patel Oxygen",
+       "no": "9825333200",
+        "link": "Ahmedabad"
+      },
+      {"name": "Utpal Shah",
+       "no": "9879141117 , 9898006737",
+        "link": "Ahmedabad"
+      },
+      {"name": "Dipen Shah",
+       "no": "9825203234",
+        "link": "Ahmedabad"
+      }, 
+      {"name": "Dipak Shah",
+       "no": "9925246679",
+        "link": "Ahmedabad "
+      },
+      {"name": "Bhuyandev area",
+       "no": "9904018227",
+        "link": "Ahmedabad"
+      }      
+      ],
+    "plasma" : [
+      {"name": "Prajesh Bharwad",
+       "no": "9724304143",
+        "link": ""
+      },
+      {"name": "Jay Jalaram Seva Samiti Haarij",
+       "no": "9925733531,9879123774,8140001795,9825622181",
+        "link": ""
+      }
+      ],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  },
+  {
+    "did" : 2,
+    "dname" : "Rajkot",
+    "beds" : [
+      {"name": "sterling hospital",
+       "no": "2812545600",
+        "link": ""
+      }      
+      ],
+    "ambulance":[],
+    "oxygen" : [
+
+     {"name": "AIMS oxygen",
+       "no": "9925110130 , 9106104777",
+        "link": "Rajkot"
+      },
+      {"name": "Life oxygen Gases",
+       "no": "9712410800 , 9033090108",
+        "link": "Rajkot"
+      },
+      {"name": "Govind Gandhi",
+       "no": "9099939236",
+        "link": "Rajkot "
+      }, 
+      {"name": "Hingorani Gases",
+       "no": "0281576606 , 9825046074",
+        "link": ""
+      },
+      {"name": "Trishul Gases",
+       "no": "9825328080",
+        "link": "9374103523"
+      },
+      {"name": "Bolbala cheritable trust",
+       "no": "9374103523",
+        "link": ""
+      },
+      {"name": "Sadbhavna Trust",
+       "no": "8530138001",
+        "link": ""
+      },
+      {"name": "Hareshbhai Solanki",
+       "no": "9106086978 , 9426009555",
+        "link": ""
+      }, 
+      {"name": "Lucky Bhai Gujjarat Gas",
+       "no": "9104811112",
+        "link": ""
+      }
+      ],
+    "plasma" : [
+      {"name": "Prajesh Bharwad",
+       "no": "9724304143",
+        "link": ""
+      },
+      {"name": "Jay Jalaram Seva Samiti Haarij",
+       "no": "9925733531,9879123774,8140001795,9825622181",
+        "link": ""
+      }      
+      ],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  },
+  {
+    "did" : 3,
+    "dname" : "All Cities",
+    "beds" : [
+      {"name": "Vrundavan Hospital",
+       "no": "8469355522, 7984668109",
+        "link": "surat, available with oxygen"
+      },
+      {"name": "baps pramukh swami hospital",
+       "no": "2612781000",
+        "link": "surat"
+      },
+      {"name": "ashaktashram hospital",
+       "no": "261-2700300",
+        "link": "Surat"
+      },
+      {"name": "Mobile Medical Bunkhouse",
+       "no": "6358813337",
+        "link": "Vadodara, Rental services everything except oxy and ventilator"
+      },
+      {"name": "SMVS hospital",
+       "no": "7373733904",
+        "link": "Gandhinagar"
+      },
+      {"name": "goenka hospital",
+       "no": "8980002120",
+        "link": "Gandhinagar"
+      }     
+      ],
+    "ambulance":[],
+    "oxygen" : [],
+    "plasma" : [
+      {"name": "Prajesh Bharwad",
+       "no": "9724304143",
+        "link": ""
+      },
+      {"name": "Jay Jalaram Seva Samiti Haarij",
+       "no": "9925733531,9879123774,8140001795,9825622181",
+        "link": ""
+      }      
+      ],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  }]
+}
 ]

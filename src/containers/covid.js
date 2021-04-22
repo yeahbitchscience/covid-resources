@@ -7,6 +7,7 @@ import Help from "../functions/help.js";
 import Infobox from "../functions/infobox.js";
 import Breakline from '../functions/breakline.js';
 import hope from '../assets/hope.jpeg';
+import No from '../functions/no.js';
 
 
 class Covid extends Component {
@@ -96,32 +97,38 @@ class Covid extends Component {
     //oxygen Availability
     let oxygen = <div></div>;
     if (this.state.showoxygen === true) {
-      oxygen = data[this.state.state].districts[this.state.district].oxygen.map(c =>
-        {
-          return(
+      if (data[this.state.state].districts[this.state.district].oxygen.length > 0) {
+        oxygen = data[this.state.state].districts[this.state.district].oxygen.map(c =>
+          {
+            return(
 
-            <div className={classes.bigbox}>
+              <div className={classes.bigbox}>
      <div className={classes.box}>
      <p className={classes.name}>
 Provider Name :
-            </p>
+              </p>
      <p className={classes.num}>
               {c.name}
-            </p>
-            </div>
+              </p>
+              </div>
      <div className={classes.box}>
      <p className={classes.name}>
 Contact Number :
-              </p>
+                </p>
      <p className={classes.num}>
                 {c.no}
-              </p>
-            </div>
+                </p>
+              </div>
      <p className={classes.plas}>
               {c.link}
-            </p>
-            </div>
-          )});
+              </p>
+              </div>
+            )});
+      } else {
+        oxygen = <No />
+      }
+
+
     } else {
       oxygen = <div></div>
     }
@@ -129,32 +136,36 @@ Contact Number :
     //beds Availability
     let bedavail = <div></div>;
     if (this.state.showbed === true) {
-      bedavail = data[this.state.state].districts[this.state.district].beds.map(c =>
-        {
-          return(
+      if (data[this.state.state].districts[this.state.district].beds.length > 0) {
+        bedavail = data[this.state.state].districts[this.state.district].beds.map(c =>
+          {
+            return(
 
-            <div className={classes.bigbox}>
+              <div className={classes.bigbox}>
      <div className={classes.box}>
      <p className={classes.name}>
 Hospital Name :
-            </p>
+              </p>
      <p className={classes.num}>
               {c.name}
-            </p>
-            </div>
+              </p>
+              </div>
      <div className={classes.box}>
      <p className={classes.name}>
 Contact Number :
-              </p>
+                </p>
      <p className={classes.num}>
                 {c.no}
-              </p>
-            </div>
+                </p>
+              </div>
      <p className={classes.plas}>
               {c.link}
-            </p>
-            </div>
-          )});
+              </p>
+              </div>
+            )});
+      } else {
+        bedavail = <No />
+      }
     } else {
       bedavail = <div></div>
     }
@@ -162,64 +173,72 @@ Contact Number :
     //Plasma Availability
     let plasma = <div></div>;
     if (this.state.showplasma === true) {
-      plasma = data[this.state.state].districts[this.state.district].plasma.map(c =>
-        {
-          return(
+      if (data[this.state.state].districts[this.state.district].plasma.length > 0) {
+        plasma = data[this.state.state].districts[this.state.district].plasma.map(c =>
+          {
+            return(
 
-            <div className={classes.bigbox}>
+              <div className={classes.bigbox}>
      <div className={classes.box}>
      <p className={classes.name}>
  Provider Name :
-            </p>
+              </p>
      <p className={classes.num}>
               {c.name}
-            </p>
-            </div>
+              </p>
+              </div>
      <div className={classes.box}>
      <p className={classes.name}>
 Contact :
-              </p>
+                </p>
      <p className={classes.num}>
                 {c.no}
-              </p>
-            </div>
+                </p>
+              </div>
      <p className={classes.plas}>
               {c.link}
-            </p>
-            </div>
-          )});
+              </p>
+              </div>
+            )});
+      } else {
+        plasma = <No />
+      }
     } else {
       plasma = <div></div>
     }
     //Test Availability
     let test = <div></div>;
     if (this.state.showtest === true) {
-      test = data[this.state.state].districts[this.state.district].test.map(c =>
-        {
-          return(
+      if (data[this.state.state].districts[this.state.district].test.length > 0) {
+        test = data[this.state.state].districts[this.state.district].test.map(c =>
+          {
+            return(
 
-            <div className={classes.bigbox}>
+              <div className={classes.bigbox}>
      <div className={classes.box}>
      <p className={classes.name}>
 Lab Name :
-            </p>
+              </p>
      <p className={classes.num}>
               {c.name}
-            </p>
-            </div>
+              </p>
+              </div>
      <div className={classes.box}>
      <p className={classes.name}>
 Contact Number :
-              </p>
+                </p>
      <p className={classes.num}>
                 {c.no}
-              </p>
-            </div>
+                </p>
+              </div>
      <p className={classes.plas}>
               {c.link}
-            </p>
-            </div>
-          )});
+              </p>
+              </div>
+            )});
+      } else {
+        test = <No />
+      }
     } else {
       test = <div></div>
     }
@@ -227,64 +246,73 @@ Contact Number :
     //Remdesivir Availability
     let remdesivir = <div></div>;
     if (this.state.showremdesivir === true) {
-      remdesivir = data[this.state.state].districts[this.state.district].remdesivir.map(c =>
-        {
-          return(
+      if (data[this.state.state].districts[this.state.district].remdesivir.length > 0) {
+        remdesivir = data[this.state.state].districts[this.state.district].remdesivir.map(c =>
+          {
+            return(
 
-            <div className={classes.bigbox}>
+              <div className={classes.bigbox}>
      <div className={classes.box}>
      <p className={classes.name}>
  Provider Name :
-            </p>
+              </p>
      <p className={classes.num}>
               {c.name}
-            </p>
-            </div>
+              </p>
+              </div>
      <div className={classes.box}>
      <p className={classes.name}>
 Contact :
-              </p>
+                </p>
      <p className={classes.num}>
                 {c.no}
-              </p>
-            </div>
+                </p>
+              </div>
      <p className={classes.plas}>
               {c.link}
-            </p>
-            </div>
-          )});
+              </p>
+              </div>
+            )});
+
+      } else {
+        remdesivir = <No />
+      }
     } else {
       remdesivir = <div></div>
     }
     //Doctor Availability
     let doctor = <div></div>;
     if (this.state.showdoctor === true) {
-      doctor = data[this.state.state].districts[this.state.district].doctor.map(c =>
-        {
-          return(
+      if (data[this.state.state].districts[this.state.district].doctor.length > 0) {
+        doctor = data[this.state.state].districts[this.state.district].doctor.map(c =>
+          {
+            return(
 
-            <div className={classes.bigbox}>
+              <div className={classes.bigbox}>
      <div className={classes.box}>
      <p className={classes.name}>
   Name :
-            </p>
+              </p>
      <p className={classes.num}>
               {c.name}
-            </p>
-            </div>
+              </p>
+              </div>
      <div className={classes.box}>
      <p className={classes.name}>
 Contact :
-              </p>
+                </p>
      <p className={classes.num}>
                 {c.no}
-              </p>
-            </div>
+                </p>
+              </div>
      <p className={classes.plas}>
               {c.link}
-            </p>
-            </div>
-          )});
+              </p>
+              </div>
+            )});
+      } else {
+        doctor = <No />
+      }
     } else {
       doctor = <div></div>
     }
@@ -302,7 +330,7 @@ Covid Resources India
       {totalstate}
       </select>
       <br />
-      <select className={classes.select} onChange={this.dhandler} value = {this.state.district}>
+      <select className={classes.select} onChange={this.dhandler} value={this.state.district}>
       {totald}
       </select>
     {this.state.district > 0 ?
