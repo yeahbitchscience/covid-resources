@@ -17,7 +17,8 @@
   {
     "id" : 1,
     "sname" :"Delhi",
-    "districts" : [{
+    "districts" : [
+      {
       "did" : 0,
       "dname" : "Choose Your City",
       "beds" : [],
@@ -31,7 +32,17 @@
       {
         "did" : 1,
         "dname" : "Delhi",
-        "oxygen" : [{
+        "oxygen" : [
+      {"name": "",
+       "no": "8708213298",
+        "link": "only refill, verified @9:45am"
+      },
+      
+      {"name": "-",
+       "no": "9999652638",
+        "link": "Can(12L @700 + dilevry @350), verified @23/4 8:00am"
+      },          
+          {
           "name": "-",
           "no": "9999794479",
           "link": "advance@50k delivery: Saturday"
@@ -191,7 +202,20 @@
             "no": "",
             "link": "https://www.friends2support.org/"
           }],
-        "remdesivir": [{
+        "remdesivir": [
+      {"name": "venus pharmasy",
+       "no": "9999394060",
+       "link": "favipiravir ,verified @23/4 3:30pm"
+      },
+      {"name": "sardgunj medico",
+       "no": "09910291371",
+       "link": "fabiflu verified @23/4 2pm"
+      },
+      {"name": "",
+       "no": "9718541733",
+       "link": "fabipiravir, fabiflu verified @23/4 1pm"
+      },
+          {
           "name": "Alniche Life Sciences Pvt. Ltd.",
           "no": "9811684785",
           "link": ""
@@ -346,11 +370,29 @@
             "no": "9422473277",
             "link":"telephonic guidance (8pm-11pm)"
           }],
-        "beds" : [{
+        "beds" : [
+          {
           "name": "Delhi gov bed available",
           "no": "https://coronabeds.jantasamvad.org/",
           "link": "only gov hospital"
         },
+      {"name": "ICU at home",
+       "no": "+91 8506832841",
+        "link": "@75000 for 5 days, includes 24hr nurse, 3time/day doctor, oxygen "
+      },
+
+      {"name": "NC medical college",
+       "no": "2hr drive from delhi",
+       "link": "panipat, haryana 530 oxygen beds verified @23/4 3:00pm"
+      },
+      {"name": "Yamuna Sports complex",
+       "no": "",
+        "link": "880 bed with 200 oxy beds, verified @22/4 10pm"
+      },
+      {"name": "Moolchand hospital, lajpat nagar",
+       "no": "9971844827,9873234732",
+        "link": "no oxy bed, verified @23/4 10am"
+      },
           {
             "name": "Sakurbasti covid care",
             "no": "9958678758",
@@ -643,12 +685,27 @@
       {
         "did" : 1,
         "dname" : "Mumbai",
-        "beds" : [{
+        "beds" : [
+
+      {"name": "Venus hospital",
+       "no": "",
+        "link": "3 normal bed, admission only through NMMC"
+      }, 
+       {
           "name": "Oscar Hospital, Kandivali",
           "no": "022-29672020/ 8422929220",
           "link": "verified, normal beds only"
         }],
-        "oxygen" : [{
+        "oxygen" : [
+      {"name": "Salman",
+       "no": "8422059276",
+        "link": "verified @23/04 12:10pm"
+      },
+      {"name": "seva aur sahyog",
+       "no": "9082597161",
+        "link": "12L 100 oxygen cans, verified @23/4 11:45am"
+      },          
+          {
           "name": "-",
           "no": "9321580108",
           "link": "verified"
@@ -1011,7 +1068,8 @@
   {
     "id" : 5,
     "sname" :"Bihar",
-    "districts" : [{
+    "districts" : [
+      {
       "did" : 0,
       "dname" : "Choose Your City",
       "beds" : [],
@@ -1025,7 +1083,16 @@
       {
         "did" : 1,
         "dname" : "Patna",
-        "beds" : [{
+        "beds" : [
+      {"name": "green city",
+       "no": "08709253652",
+       "link": "1oxy, 1 ICU, verified @5pm"
+      },
+      {"name": "saras hospital, kankarbag",
+       "no": "8409007938",
+        "link": "o2 beds few, normal many"
+      },
+          {
           "name": "Panchseel Hospital",
           "no": "9334380184",
           "link": "verified"
@@ -1163,11 +1230,16 @@
     },
       {
         "did" : 1,
-        "dname" : "Gwalior",
-        "beds" : [{
+        "dname" : "All cities",
+        "beds" : [
+      {"name": "Live Beds tracker",
+       "no": "",
+       "link": "http://sarthak.nhmmp.gov.in/covid/facility-bed-occupancy-details/"
+      },
+          {
           "name": "SR memorial hospital",
           "no": "6263919436",
-          "link": ""
+          "link": " Gwalior"
         }],
         "ambulance":[],
         "oxygen" : [],
@@ -1548,7 +1620,12 @@
       {
         "did" : 1,
         "dname" : "All Cities",
-        "beds" : [{
+        "beds" : [
+      {"name": "NC medical college",
+       "no": "2hr drive from delhi",
+       "link": "panipat, haryana 530 oxygen beds verified @23/4 3:00pm"
+      },
+          {
           "name": "Amar Hospital Paitala",
           "no": "0175-2222002",
           "link": ""
@@ -1884,7 +1961,8 @@
   {
     "id" : 13,
     "sname" :"Uttar Pradesh",
-    "districts" : [{
+    "districts" : [
+      {
       "did" : 0,
       "dname" : "Choose Your City",
       "beds" : [],
@@ -2006,7 +2084,12 @@
       {
         "did" : 3,
         "dname" : "Varanasi",
-        "beds" : [{
+        "beds" : [
+      {"name": "",
+       "no": "9999668278",
+       "link": "10oxy beds 3 icu verified @23/4 1:20pm"
+      },
+          {
           "name": "Ayurvedic Vidhyalaya",
           "no": "9415624840",
           "link": "arrangements are being made"
@@ -2122,7 +2205,12 @@
       {
         "did" : 5,
         "dname" : "Allahabad",
-        "beds" : [],
+        "beds" : [
+      {"name": "Kas hospital",
+       "no": "945279957",
+       "link": "216b/1A, bypass road, phaphamau, verified @23/4 5pm"
+      }
+          ],
         "ambulance":[],
         "oxygen" : [{
           "name": "",
@@ -2165,5 +2253,22 @@
             "no": "8081569228",
             "link": ""
           }]
-      }]
+      },
+      {
+      "did" : 0,
+      "dname" : "Gaziabad",
+      "beds" : [],
+      "ambulance":[],
+      "oxygen" : [
+      {"name": "-",
+       "no": "8745917001(WhatsApp only)",
+        "link": "near gandhi puri wala, navyug market, verified @23/4 11pm"
+      }
+        ],
+      "plasma" : [],
+      "remdesivir":[],
+      "doctor" :[],
+      "test" : []
+    }
+      ]
   }]

@@ -87,7 +87,7 @@ class Covid extends Component {
   }
 
   render() {
-    setTimeout(() =>{this.setState({loading: false})}, 3000);
+    setTimeout(() =>{this.setState({loading: false})}, 2500);
 
     let totalstate = data.map(a => {
       return <option value={a.id}>{a.sname} </option>
@@ -348,7 +348,7 @@ Covid Resources India
       <Infobox showhandler={this.showplasmahandler} text="Plasma Resources" />
 
      {plasma}
-      <Infobox showhandler={this.showremdesivirhandler} text="Remdesivir Resources" />
+      <Infobox showhandler={this.showremdesivirhandler} text="Remdesivir/Fabiflu/Favipitvir" />
 
       {remdesivir}
       <Infobox showhandler={this.showdoctorhandler} text="Helpline/Doctors Consult" />
@@ -372,6 +372,9 @@ Covid Resources India
  All the data and resources has been collected from various people, websites and social media handles. I haven't personally verified them.
           </p>
       <p className={classes.infobold}>
+ Please have patience while calling, no may be busy or the resource my have exhausted because of high demand.
+          </p>          
+      <p className={classes.infobold}>
  Not every Number on this website is verified. They can be switched off, wrong or out of service. You can inform me by clicking "wanna help" section that is in the bottom of this website. I'll remove those faulty resources.
           </p>
       <p className={classes.infobold}>
@@ -385,6 +388,9 @@ Covid Resources India
           </p>
       <p className={classes.infobold}>
 Thank you, I will try my best to help everyone.
+          </p>
+      <p className={classes.infobold}>
+ DONT LOSE HOPE, Just keep trying.
           </p>
         </div>
       </div>
