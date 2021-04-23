@@ -207,10 +207,6 @@
        "no": "",
         "link": "fabiflu verified @23/4 8:30pm"
       },
-      {"name": "Amit",
-       "no": "8587046496",
-        "link": "Bevacizumab, verified @23/4 8:30pm"
-      }, 
       {"name": "Noida",
        "no": "6396856500",
         "link": "Favipiravir available, Fabiflu from 24/4 verified @23/4 8:30pm"
@@ -595,6 +591,10 @@
           "no": "https://www.wbhealth.gov.in/pages/corona/bed_availability",
           "link": ""
         },
+      {"name": "Anand lok hospital",
+       "no": "9830321714",
+        "link": "4 beds, verified @23/4 9:00pm"
+      },        
           {
             "name": "Jibandaan Home Quarantine(ventilation)",
             "no": "9163437940",
@@ -2066,9 +2066,9 @@
         "did" : 2,
         "dname" : "Meerut",
         "beds" : [{
-          "name": "Mahavir Ayurvedic Vidyalay",
-          "no": "9557928862",
-          "link": "Meerut"
+          "name": "OM trauma center",
+          "no": "9927070692",
+          "link": ""
         },
           {
             "name": "Mahavir Ayurvedic Vidyalay",
