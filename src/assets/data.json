@@ -15,7 +15,62 @@
   }]
 },
   {
-    "id" : 1,
+  "id" : 1,
+  "sname" :"PAN INDIA",
+  "districts" : [{
+    "did" : 0,
+    "dname" : "India",
+    "beds" : [],
+    "ambulance":[],
+    "oxygen" : [],
+    "plasma" : [
+      {"name": "Covid resources initiative",
+       "no": "@covidaidresources on Instagram",
+        "link": "send an email to covid.aid.resources21@gmail.com with the subject linebNameOfPatient Blood Group Required_City with the exact details of your plasma requirement in the body"
+      },
+      {"name": "Fridays for future initiative",
+       "no": "fill the below form",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSdI4KOLMeG3EcbafimtDrDbFG8LyDNkXA1vSPi2u57mS7KWwQ/viewform"
+      },
+          {
+            "name": "",
+            "no": "www.friends2support.org",
+            "link": "good plasma donor database"
+          },
+          {
+            "name": "Dhoondh",
+            "no": "",
+            "link": "https://dhoondh.com"
+          },
+          {
+            "name": "Plasma Donor",
+            "no": "",
+            "link": "https://plasmadonor.in"
+          },
+          {
+            "name": "Need Plasma",
+            "no": "",
+            "link": "https://needplasma.in"
+          },
+          {
+            "name": "Plasma Line",
+            "no": "",
+            "link": "https://plasmaline.in"
+          }      
+
+      ],
+    "remdesivir":[      
+      {"name": "remdesivir distribution nationwide",
+       "no": "",
+        "link": "https://docs.google.com/spreadsheets/u/0/d/1J-m84rr-tV47wZrUKn41jlTTID5FNcMs5MwyYHt9fLU/htmlview"
+      }
+      ],
+    "doctor" :[],
+    "test" : []
+  }]
+},
+  {
+    "id" : 2,
     "sname" :"Delhi",
     "districts" : [
       {
@@ -33,6 +88,10 @@
         "did" : 1,
         "dname" : "Delhi",
         "oxygen" : [
+     {"name": "Hemkunt foundation",
+       "no": "plot no 809,second floor,rd 42C,sector 42,gurugram, haryana,122001",
+       "link": "starting from 24/4 10:30 am, just take the patient in your car with documents and they will provide you free unlimited oxygen. tent available for critical patients"
+      },
       {"name": "",
        "no": "8708213298",
         "link": "only refill, verified @9:45am"
@@ -388,6 +447,22 @@
        "no": "+91 8506832841",
         "link": "@75000 for 5 days, includes 24hr nurse, 3time/day doctor, oxygen "
       },
+      {"name": "Madhukar rainbow, , malviya nagar",
+       "no": "9100065913",
+        "link": "Only for children, verified @24/4 10am Geetanjali FC-29 5, Near Malviya nagar metro station, Delhi 110017 "
+      },      
+      {"name": "Max, saket",
+       "no": "",
+        "link": "50/360 verified (oxy)@24/4 9am"
+      },
+      {"name": "",
+       "no": "",
+        "link": "110/259(40% oxy) verified @24/4 9am"
+      }, 
+      {"name": "Pushpawati singhania hospital, saket",
+       "no": "NHAC, Hamdard nagar",
+        "link": "110/292 (care beds only) verified @24/4 9am"
+      },      
       {"name": "Baba sahab Ambedkar hospital",
        "no": "Bhagwaan mahavir nagar, sec 6, rohini, new delhi",
         "link": "3 oxy bed available for children verified @23/4 7:40pm "
@@ -493,7 +568,7 @@
       }]
   },
   {
-    "id" : 2,
+    "id" : 3,
     "sname" :"Karnataka",
     "districts" : [{
       "did" : 0,
@@ -569,7 +644,7 @@
       }]
   },
   {
-    "id" : 3,
+    "id" : 4,
     "sname" :"West Bengal",
     "districts" : [{
       "did" : 0,
@@ -684,7 +759,7 @@
       }]
   },
   {
-    "id" : 4,
+    "id" : 5,
     "sname" :"Maharastra",
     "districts" : [
       {
@@ -822,6 +897,10 @@
             "link": ""
           }],
         "oxygen" : [
+      {"name": "Yushuf khan",
+       "no": "9923226538",
+        "link": "free for needysecurity 5000"
+      },
       {"name": "sripad",
        "no": "9881200369",
         "link": "12L @600 verified @23/4 8:30pm"
@@ -1087,7 +1166,7 @@
 
   },
   {
-    "id" : 5,
+    "id" : 6,
     "sname" :"Bihar",
     "districts" : [
       {
@@ -1236,7 +1315,7 @@
       }]
   },
   {
-    "id" : 6,
+    "id" : 7,
     "sname" :"Madhaya Pradesh",
     "districts" : [{
       "did" : 0,
@@ -1271,7 +1350,7 @@
       }]
   },
   {
-    "id" : 7,
+    "id" : 8,
     "sname" :"Jammu and Kashmir",
     "districts" : [{
       "did" : 0,
@@ -1306,7 +1385,7 @@
       }]
   },
   {
-    "id" : 8,
+    "id" : 9,
     "sname" :"Uttarakhand",
     "districts" : [{
       "did" : 0,
@@ -1335,7 +1414,7 @@
       }]
   },
   {
-    "id" : 9,
+    "id" : 10,
     "sname" :"Tamil Nadu",
     "districts" : [{
       "did" : 0,
@@ -1355,7 +1434,11 @@
       {"name": " Private Hospital Tracker",
        "no": "https://chennai-zones.herokuapp.com/privateHospitals",
         "link": "takes time to load"
-      }          
+      },
+      {"name": "Tamil nadu Gov Beds tracker",
+       "no": "",
+        "link": "https://stopcorona.tn.gov.in/beds.php"
+      }      
           ],
         "ambulance":[],
         "oxygen" : [],
@@ -1388,7 +1471,7 @@
       }]
   },
   {
-    "id" : 10,
+    "id" : 11,
     "sname" :"Rajasthan",
     "districts" : [
       {
@@ -1630,7 +1713,7 @@
 ]
   },
   {
-    "id" : 11,
+    "id" : 12,
     "sname" :"Haryana and Punjab",
     "districts" : [{
       "did" : 0,
@@ -1795,7 +1878,7 @@
       }]
   },
   {
-    "id" : 12,
+    "id" : 13,
     "sname" :"Gujrat",
     "districts" : [{
       "did" : 0,
@@ -1989,7 +2072,7 @@
       }]
   },
   {
-    "id" : 13,
+    "id" : 14,
     "sname" :"Uttar Pradesh",
     "districts" : [
       {
@@ -2301,4 +2384,70 @@
       "test" : []
     }
       ]
-  }]
+  },
+  {
+  "id" : 15,
+  "sname" :"Telangana",
+  "districts" : [
+    {
+    "did" : 0,
+    "dname" : "Choose Your City",
+    "beds" : [],
+    "ambulance":[],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  },
+    {
+    "did" : 1,
+    "dname" : "Hydrabad",
+    "beds" : [
+      {"name": "Hospital beds Tracker",
+       "no": "",
+        "link": "http://164.100.112.24/SpringMVC/Hospital_Beds_Statistic_Bulletin_citizen.htm"
+      }      
+      ],
+    "ambulance":[],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  }
+  ]
+},
+  {
+  "id" : 16,
+  "sname" :"Andhra Pradesh",
+  "districts" : [
+    {
+    "did" : 0,
+    "dname" : "Choose Your City",
+    "beds" : [],
+    "ambulance":[],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  },
+    {
+    "did" : 1,
+    "dname" : "All cities",
+    "beds" : [
+      {"name": "Beds Tracker",
+       "no": "",
+        "link": "http://dashboard.covid19.ap.gov.in/ims/hospbed_reports/"
+      }      
+      ],
+    "ambulance":[],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  }
+  ]}
+  ]

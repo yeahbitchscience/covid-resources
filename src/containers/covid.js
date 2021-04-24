@@ -25,6 +25,8 @@ class Covid extends Component {
     loading :true
   }
   
+  
+  
 
 
   
