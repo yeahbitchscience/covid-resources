@@ -101,10 +101,18 @@
         "did" : 1,
         "dname" : "Delhi",
         "oxygen" : [
+      {"name": "",
+       "no": "9899601225",
+        "link": "oxygen cans only, verified@24/4 1pm"
+      },
      {"name": "Hemkunt foundation",
        "no": "plot no 809,second floor,rd 42C,sector 42,gurugram, haryana,122001",
        "link": "starting from 24/4 10:30 am, just take the patient in your car with documents and they will provide you free unlimited oxygen. tent available for critical patients"
       },
+      {"name": "-",
+       "no": "9315137189",
+        "link": "no home delivery, verified @24/4 1pm"
+      },      
       {"name": "",
        "no": "8708213298",
         "link": "only refill, verified @9:45am"
@@ -460,6 +468,11 @@
        "no": "+91 8506832841",
         "link": "@75000 for 5 days, includes 24hr nurse, 3time/day doctor, oxygen "
       },
+      {"name": "Baba sahab Ambedkar hospital",
+       "no": "Bhagwaan mahavir nagar, sec 6, rohini, new delhi",
+        "link": "50 oxy bed available verified @24/4 2:24pm "
+      },
+      
       {"name": "Madhukar rainbow, , malviya nagar",
        "no": "9100065913",
         "link": "Only for children, verified @24/4 10am Geetanjali FC-29 5, Near Malviya nagar metro station, Delhi 110017 "
@@ -476,10 +489,6 @@
        "no": "",
         "link": "110/292 (care beds only) verified @24/4 9am"
       },      
-      {"name": "Baba sahab Ambedkar hospital",
-       "no": "Bhagwaan mahavir nagar, sec 6, rohini, new delhi",
-        "link": "3 oxy bed available for children verified @23/4 7:40pm "
-      },
 
       {"name": "NC medical college",
        "no": "2hr drive from delhi",
@@ -688,7 +697,12 @@
             "no": "9163437940",
             "link": "(10AM-8PM)[Mon-Sat]"
           }],
-        "oxygen" : [{
+        "oxygen" : [
+      {"name": "Oxygen can",
+       "no": "6290295411",
+        "link": "10L @630,no delivery, verified @24/4 5:10pm "
+      },
+          {
           "name": "Aryan Oxygen",
           "no": "9007427926",
           "link": ""
@@ -790,6 +804,10 @@
         "did" : 1,
         "dname" : "Mumbai",
         "beds" : [
+      {"name": "Home ICU",
+       "no": "9321694402",
+        "link": "verified @24/4 12:30pm"
+      },
 
       {"name": "Venus hospital",
        "no": "",
@@ -917,7 +935,31 @@
       {"name": "sripad",
        "no": "9881200369",
         "link": "12L @600 verified @23/4 8:30pm"
-      },          
+      },
+      {"name": "Nikhil",
+       "no": "968990094",
+        "link": "oxy supply verified @24/4 6:30pm"
+      },
+      {"name": "Mayur bajaj",
+       "no": "9637011213",
+        "link": "oxy supply verified @24/4 6:30pm"
+      },
+      {"name": "Aditya",
+       "no": "9665899349",
+        "link": "oxy supply verified @24/4 6:30pm"
+      }, 
+      {"name": "Avinash Deshpandey",
+       "no": "942310433",
+        "link": "oxy supply verified @24/4 6:30pm"
+      },
+      {"name": "Badal",
+       "no": "7798214300",
+        "link": "oxy supply verified@24/4 6:30pm"
+      },
+      {"name": "Rajesh ksnhare",
+       "no": "9823911149",
+        "link": "oxy supply/refill verified@24/4 6:30pm"
+      },
           {
           "name": "Naresh",
           "no": "9372723733",
@@ -1197,6 +1239,10 @@
         "did" : 1,
         "dname" : "Patna",
         "beds" : [
+      {"name": "Raman Hospital",
+       "no": "8294874872",
+        "link": "ICU Beds, verified @24/4 3pm"
+      },
       {"name": "green city",
        "no": "08709253652",
        "link": "1oxy, 1 ICU, verified @5pm"
@@ -1743,6 +1789,10 @@
         "did" : 1,
         "dname" : "All Cities",
         "beds" : [
+      {"name": "Sahil Gupta",
+       "no": "9910223322, 9811955525",
+        "link": "Chandigarh, ICU without ventilator, verified @24/4 4:47pm "
+      },
       {"name": "Sagar hospital",
        "no": "9910223322",
         "link": "patiala-ambala highway, 75 oxy beds, verified @23/4 1pm"
@@ -2107,6 +2157,11 @@
           "no": "9628333326",
           "link": ""
         },
+      {"name": "Maa Chandarika Devi",
+       "no": "9140190282",
+        "link": "oxy beds, verified @24/4 2:30pm "
+      },
+
           {
             "name": "Advance Neuro And General Hospital",
             "no": "9415022002",
@@ -2127,7 +2182,12 @@
             "no": "9307566777",
             "link": ""
           }],
-        "ambulance":[],
+        "ambulance":[
+      {"name": "Rajeev Kumar",
+       "no": "8826602001",
+        "link": "oxygen/ ventilator available"
+      }
+          ],
         "oxygen" : [{
           "name": "Sunita Traders",
           "no": "7355785818, 8957564825",
@@ -2338,7 +2398,12 @@
       }
           ],
         "ambulance":[],
-        "oxygen" : [{
+        "oxygen" : [
+      {"name": "",
+       "no": "8726772225",
+        "link": "refill @500, verified@24/4 12:25pm"
+      },
+          {
           "name": "",
           "no": "8318577069",
           "link": "verified"
