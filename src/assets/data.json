@@ -592,7 +592,8 @@
   {
     "id" : 3,
     "sname" :"Karnataka",
-    "districts" : [{
+    "districts" : [
+      {
       "did" : 0,
       "dname" : "Choose Your City",
       "beds" : [],
@@ -646,11 +647,23 @@
             "no": "8526723404",
             "link": ""
           }],
-        "ambulance" : [{
+        "ambulance" : [
+
+          {
           "name": "HelpNow",
           "no": "8899889952,8822200000",
           "link": ""
-        }],
+        },
+      {"name": "Yashwani ambulance",
+       "no": "9845083398",
+        "link": "O2 available"
+      },
+      {"name": "Kaveri Hospital",
+       "no": "9845471570",
+        "link": "Dead body transport"
+      }
+
+        ],
         "remdesivir":[{
           "name": "-",
           "no": "7019861430,9035796385",
@@ -1291,10 +1304,28 @@
           "no": "0612-2234869",
           "link": "not picking up"
         }],
-        "remdesivir":[{
+        "remdesivir":[
+      {"name": "NEW PURAN MEDICAL AGENCY",
+       "no": "9431063952",
+        "link": "Remdesivir,Sarraf Palace, Govind Mitra road"
+      },
+      {"name": "SHREE SALASAR BALAJI AGEN",
+       "no": "9709300131",
+        "link": "Remdesivir,Khemka House, Ashok Raj Path"
+      },
+      {"name": "Shree Balaji Pharmaceuticals ",
+       "no": "9334255074",
+        "link": "Tocilizumab, Dak bungalow road, Patna"
+      },
+      {"name": "Geetianjali Medicos",
+       "no": "9430270997",
+        "link": "Fabiflue available verified @24/4 6:00pm"
+      },
+
+          {
           "name": "KVD Agencies",
           "no": "0612-2301980",
-          "link": "was stock over, you can try"
+          "link": "remdesivir, Tocilizumab available"
         },
           {
             "name": "King Enterprises",
@@ -1330,7 +1361,16 @@
           }],
         "ambulance":[],
         "plasma" : [],
-        "remdesivir":[{
+        "remdesivir":[
+      {"name": "Bhawani Drug Distributors",
+       "no": "9334355735",
+        "link": "Tocilizumab,opposite Imalichatti petrol pump"
+      },
+       {"name": "National Pharma",
+       "no": "9708356829",
+        "link": "Tocilizumab,Juran Chapra road"
+      },         
+          {
           "name": "Ratna Medicine",
           "no": "09430013506",
           "link": "only fabiflu"
@@ -1380,7 +1420,9 @@
       "did" : 0,
       "dname" : "Choose Your City",
       "beds" : [],
-      "oxygen" : [],
+      "oxygen" : [
+        
+        ],
       "ambulance":[],
       "plasma" : [],
       "remdesivir":[],
@@ -1399,13 +1441,85 @@
           "name": "SR memorial hospital",
           "no": "6263919436",
           "link": " Gwalior"
-        }],
+        },
+      {"name": "Marble City Hospital",
+       "no": "9300110650",
+        "link": "Jabalpur"
+      },
+      {"name": "Bansal Hospital",
+       "no": "0755 408 6099",
+        "link": "Bhopal"
+      }
+        ],
         "ambulance":[],
-        "oxygen" : [],
-        "plasma" : [],
-        "remdesivir":[],
+        "oxygen" : [
+      {"name": "Mahavir Jain",
+       "no": "9425091988",
+        "link": "Ujjain, only refill"
+      },
+      {"name": "Satyam",
+       "no": "8770337273",
+        "link": "Bhopal, verified"
+      },
+      {"name": "Bhanu Bhadoria",
+       "no": "9826073532",
+        "link": "Ujjain, verified"
+      },
+      {"name": "Rewa Gases Pvt. Ltd.",
+       "no": "7987555260",
+        "link": "Neemach"
+      },
+      {"name": "Rajesh",
+       "no": "9826500599",
+        "link": "Indore,Refill only"
+      },
+      {"name": "Kamal",
+       "no": "8109490001",
+        "link": "Indore"
+      },
+      {"name": "Yaagesh Rathi",
+       "no": "9009525222",
+        "link": "Indore"
+      },
+      {"name": "Narendra",
+       "no": "9425056939",
+        "link": "Indore,Refill only"
+      },
+      {"name": "Balaji Oxygen",
+       "no": "9229110175",
+        "link": "Jabalpur, medical oxygen available.arrangement of cylinder can be done"
+      }
+          ],
+        "plasma" : [
+      {"name": "Team Jeevan Data",
+       "no": "9165845211",
+        "link": "Jabalpur"
+      }
+
+          ],
+        "remdesivir":[      {"name": "KL Agarwal",
+       "no": "9329706026",
+        "link": "remdesivir, Bhopal"
+      }],
         "doctor" :[],
-        "test" : []
+        "test" : [
+      {"name": "SRL Diagnostics",
+       "no": "9302180682",
+        "link": "Jabalpur,Home collection"
+      },
+      {"name": "Medical College Testing",
+       "no": "9806865588",
+        "link": "Jabalpur"
+      },
+      {"name": "Bansal Diagonostics",
+       "no": "9009662790",
+        "link": "Jabalpur,Home collection"
+      }, 
+      {"name": "DIMS",
+       "no": "6267568809",
+        "link": "Jabalpur, Home collection"
+      }
+          ]
       }]
   },
   {
@@ -1630,7 +1744,19 @@
      {"name": "Remdesivir",
        "no": "Go to nearest CMHO with prescription,aadhar, hospital adm. papers",
         "link": "list of CMHO: www.rajswasthya.nic.in/PDF/CMHO.pdf"
-      }],
+      },
+        
+      {"name": "Nextgen Biotech",
+       "no": "918048421042",
+        "link": "FabiFlu"
+      },
+      {"name": "",
+       "no": "9550313483",
+        "link": "Tocilizumab"
+      }
+      
+
+      ],
         "doctor" :[],
         "test" : []
       },
@@ -1696,8 +1822,46 @@
       }
           ],
         "plasma" : [],
-        "remdesivir":[],
-        "doctor" :[],
+        "remdesivir":[
+      {"name": "Skavis Biotec Private Ltd.",
+       "no": "8048856764",
+        "link": "FabiFlu"
+      },
+      {"name": "Kashchem Agencies Pvt. Ltd.",
+       "no": "8048402896",
+        "link": "FabiFlu"
+      },
+      {"name": "Health Biotech ",
+       "no": "8048762564",
+        "link": "FabiFlu"
+      }, 
+      {"name": "S S Pharmaceutical",
+       "no": "8045328689",
+        "link": "FabiFlu"
+      }
+          ],
+        "doctor" :[
+      {"name": "Dr. Tanuj Sharma",
+       "no": "9938505040",
+        "link": ""
+      },
+      {"name": "Dr. Rishabh Bhardwaj",
+       "no": "8696388527",
+        "link": ""
+      },
+      {"name": "Dr. Jaswant Yadav",
+       "no": "9899921635",
+        "link": ""
+      },
+      {"name": "Dr. Ambika Singh",
+       "no": "9636088914",
+        "link": ""
+      }, 
+      {"name": "Dr. Himashu Dhavan",
+       "no": "9461059340",
+        "link": ""
+      }
+          ],
         "test" : []
       },
       {

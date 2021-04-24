@@ -22,11 +22,16 @@ class Covid extends Component {
     showremdesivir: false,
     showdoctor: false,
     showtest: false,
-    loading :true
+    loading :true,
+    showambulance:false
   }
   
   
-  
+  ambulancechangehandler = () => {
+    this.setState({
+      showambulance: !this.state.showambulance
+    });
+  }
 
 
   
@@ -137,6 +142,45 @@ Contact Number :
 
     } else {
       oxygen = <div></div>
+    }
+
+    //ambulance Availability
+    let ambulance = <div></div>;
+    if (this.state.showambulance === true) {
+      if (data[this.state.state].districts[this.state.district].ambulance.length > 0) {
+        ambulance = data[this.state.state].districts[this.state.district].ambulance.map(c =>
+          {
+            return(
+
+              <div className={classes.bigbox}>
+     <div className={classes.box}>
+     <p className={classes.name}>
+ Name :
+              </p>
+     <p className={classes.num}>
+              {c.name}
+              </p>
+              </div>
+     <div className={classes.box}>
+     <p className={classes.name}>
+Contact Number :
+                </p>
+     <p className={classes.num}>
+                {c.no}
+                </p>
+              </div>
+     <p className={classes.plas}>
+              {c.link}
+              </p>
+              </div>
+            )});
+      } else {
+        ambulance = <No />
+      }
+
+
+    } else {
+      ambulance = <div></div>
     }
 
     //beds Availability
@@ -353,7 +397,10 @@ Covid Resources India
       <Infobox showhandler={this.showremdesivirhandler} text="Remdesivir/Fabiflu/Favipitvir" />
 
       {remdesivir}
-      <Infobox showhandler={this.showdoctorhandler} text="Helpline/Doctors Consult" />
+      <Infobox showhandler={this.ambulancechangehandler} text="Ambulance" />
+
+      {ambulance}      
+      <Infobox showhandler={this.showdoctorhandler} text="Helpline/Doctors Consultancy" />
      {doctor}
       <Infobox showhandler={this.showtesthandler} text="Covid Test" />
      {test}
