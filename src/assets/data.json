@@ -2,7 +2,8 @@
   {
   "id" : 0,
   "sname" :"Choose Your State",
-  "districts" : [{
+  "districts" : [
+    {
     "did" : 0,
     "dname" : "Choose Your City",
     "beds" : [],
@@ -17,8 +18,20 @@
   {
   "id" : 1,
   "sname" :"PAN INDIA",
-  "districts" : [{
+  "districts" : [
+  {
     "did" : 0,
+    "dname" : "Choose Your City",
+    "beds" : [],
+    "ambulance":[],
+    "oxygen" : [],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  },
+    {
+    "did" : 1,
     "dname" : "India",
     "beds" : [],
     "ambulance":[],
@@ -455,12 +468,12 @@
        "no": "",
         "link": "50/360 verified (oxy)@24/4 9am"
       },
-      {"name": "",
+      {"name": "Pushpawati singhania hospital, saket",
        "no": "",
         "link": "110/259(40% oxy) verified @24/4 9am"
       }, 
-      {"name": "Pushpawati singhania hospital, saket",
-       "no": "NHAC, Hamdard nagar",
+      {"name": "NHAC, Hamdard naga",
+       "no": "",
         "link": "110/292 (care beds only) verified @24/4 9am"
       },      
       {"name": "Baba sahab Ambedkar hospital",

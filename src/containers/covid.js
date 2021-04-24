@@ -363,6 +363,11 @@ Covid Resources India
       </img>
       <p className={classes.infobold}>
  Don't Panic.
+           </p>
+      <p className={classes.twt}>
+ For Real-Time covid twitter leads: <a href = "https://covid19-twitter.in/" >Click here</a>
+          
+          
           </p>
       <p className={classes.infobold}>
  Choose the State and then the City, wait and it will show you all the available covid resources.

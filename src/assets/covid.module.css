@@ -181,3 +181,12 @@
   font-size: 0.6rem;
   font-weight: 900;
 }
+
+.twt {
+  text-align: left;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+  color: red;
+}
