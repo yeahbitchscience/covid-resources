@@ -1107,6 +1107,10 @@
         "did" : 2,
         "dname" : "Nagpur",
         "beds" : [
+      {"name": "City hospital",
+       "no": "-",
+        "link": "14 oxy beds available,25 km from main city, verified @26/4 1:30"
+      },          
       {"name": "Pulse Hospital",
        "no": "9373103196",
         "link": "Oxy beds, verified @25/4 4:15pm"
