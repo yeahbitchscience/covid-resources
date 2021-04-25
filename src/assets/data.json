@@ -19,7 +19,7 @@
   "id" : 1,
   "sname" :"PAN INDIA",
   "districts" : [
-  {
+ {
     "did" : 0,
     "dname" : "Choose Your City",
     "beds" : [],
@@ -108,6 +108,30 @@
      {"name": "Hemkunt foundation",
        "no": "plot no 809,second floor,rd 42C,sector 42,gurugram, haryana,122001",
        "link": "starting from 24/4 10:30 am, just take the patient in your car with documents and they will provide you free unlimited oxygen. tent available for critical patients"
+      },
+      {"name": "Ghaziabad",
+       "no": "8745917001 (Whatsapp only)",
+        "link": ""
+      },
+      {"name": "Noida",
+       "no": "88822642903.",
+        "link": ""
+      },
+      {"name": "Kalkaji",
+       "no": "8826513407",
+        "link": ""
+      },
+      {"name": "Gurugram",
+       "no": "9810526521",
+        "link": "only Refill available"
+      }, 
+      {"name": "Monu Equipment supplier",
+       "no": "8178877352",
+        "link": ""
+      },
+      {"name": "Shalini",
+       "no": "9899520939",
+        "link": "80000 oxygen concentrator available, booking from 25/4 delivery on 30/4."
       },
       {"name": "-",
        "no": "9315137189",
@@ -283,6 +307,10 @@
             "link": "https://www.friends2support.org/"
           }],
         "remdesivir": [
+      {"name": "Kailash medicos, shakti nagar",
+       "no": "9999999532",
+        "link": "Fabiflu available, Aadhar card+ Doctor prescription mandotary. verified @25/4 5:30pm"
+      },
      {"name": "8800201889",
        "no": "",
         "link": "fabiflu verified @23/4 8:30pm"
@@ -611,7 +639,12 @@
           "name": "Detailed Bed Availability",
           "no": "",
           "link": "http://apps.bbmpgov.in/covidbedstatus/"
-        }],
+        },
+      {"name": "Shaqib",
+       "no": "9148950554",
+        "link": "Call him for bed, his team will help you in finding bed."
+      }
+        ],
         "oxygen" : [{
           "name": "oxygen supply",
           "no": "8660856709",
@@ -674,14 +707,20 @@
             "no": "7019861430,9035796385(whatsapp)",
             "link": ""
           }],
-        "doctor" :[],
+        "doctor" :[
+      {"name": "DR sharma",
+       "no": "9845662039",
+        "link": "Call for help in bed, oxygen, plasma. she and her team will help you in that."
+      }
+          ],
         "test" : []
       }]
   },
   {
     "id" : 4,
     "sname" :"West Bengal",
-    "districts" : [{
+    "districts" : [
+      {
       "did" : 0,
       "dname" : "Choose Your City",
       "beds" : [],
@@ -711,6 +750,22 @@
             "link": "(10AM-8PM)[Mon-Sat]"
           }],
         "oxygen" : [
+      {"name": "Niladri banarjee",
+       "no": "9874843794",
+        "link": "only WhatsApp, verified @25/4 4:pm"
+      },
+      {"name": "Rahul sinha",
+       "no": "9007024466",
+        "link": ""
+      },
+      {"name": "Oxygen refill",
+       "no": "9635967780",
+        "link": "Siliguri verified @25/4 7:30pm"
+      },
+      {"name": "Obo Swift delivery",
+       "no": "9831919933",
+        "link": "6L @1400 verified @24/4 10:30am"
+      },
       {"name": "Oxygen can",
        "no": "6290295411",
         "link": "10L @630,no delivery, verified @24/4 5:10pm "
@@ -750,7 +805,12 @@
           "no": "033 2223- 6026",
           "link": "Not picking up"
         }],
-        "remdesivir":[{
+        "remdesivir":[
+      {"name": "Important Information",
+       "no": "-",
+        "link": " remdesivir to be arranged by Hospital, ask your hospital to arrange. WB gov guidelines verified @25/4 2:00"
+      },
+          {
           "name": "Deep Shah",
           "no": "8097253459, 8999375256",
           "link": "Remdesivir 100, Actimera 400"
@@ -1046,7 +1106,12 @@
       {
         "did" : 2,
         "dname" : "Nagpur",
-        "beds" : [{
+        "beds" : [
+      {"name": "Pulse Hospital",
+       "no": "9373103196",
+        "link": "Oxy beds, verified @25/4 4:15pm"
+      },
+          {
           "name": "Nalin Hospital",
           "no": "9960639266",
           "link": "verified @22/4 3:36pm "
@@ -1277,12 +1342,22 @@
             "name":"prakash hospital(walwa,3.5hr from pune)","no":"9225361919",
             "link": ""
           }],
-        "ambulance":[{
+        "ambulance":[
+          {
           "name": "Helpnow 24*7",
           "no": "8822288222,8899889952,9870333255",
           "link": "24*7 with ventilator"
         }],
-        "oxygen" : [{
+        "oxygen" : [
+      {"name": "Oxygen Concentrator",
+       "no": "9403004893",
+        "link": "Shop no. 6, plot no. 5, sector 1, Northland, pune, 411039  "
+      },
+      {"name": "",
+       "no": "9763317456",
+        "link": "@700 for 12l cans, delivery same day with charge. verified@25/4 1pm"
+      },
+          {
           "name": "Breez o2",
           "no": "9763317456",
           "link": ""
@@ -1405,7 +1480,12 @@
             "no" :"7004406669",
             "link": ""
           }],
-        "oxygen" : [{
+        "oxygen" : [
+      {"name": "Oxygen Cans",
+       "no": "9155763723",
+        "link": "12L oxygen cans"
+      },
+          {
           "name": "Bansi air gases",
           "no": "9204550801, 9525230013",
           "link": "verified"
@@ -1532,7 +1612,24 @@
             "link": "Volunteer, call for help"
           }],
         "test" : []
-      }]
+      },
+      {
+    "did" : 3,
+    "dname" : "Other Cities",
+    "beds" : [],
+    "ambulance":[],
+    "oxygen" : [
+      {"name": "Oxygen",
+       "no": "8538996423",
+        "link": "Sasaram, only refill"
+      }
+      ],
+    "plasma" : [],
+    "remdesivir":[],
+    "doctor" :[],
+    "test" : []
+  }
+      ]
   },
   {
     "id" : 7,
@@ -1819,9 +1916,25 @@
           }],
         "ambulance":[],
         "oxygen" : [
+      {"name": "Shivam Gases",
+       "no": "H- 410, Sarna Doongar India Area,Jhotwara Extension, Phase 2,Jaipur,302012 Rajasthan,",
+        "link": "Take Aadhar card and and patient prescription"
+      },
+      {"name": "RAJASTHAN AIR PRODUCTS",
+       "no": " 8307, road no 17,vishwakarma industrial area, jaipur",
+        "link": "Take Aadhar card and and patient prescription"
+      },
+      {"name": "PURASAF GAS LLP",
+       "no": "H 2161, RIICO, Ramchandrapura, Rajasthan 303905",
+        "link": "Take Aadhar card and and patient prescription"
+      },
+      {"name": "SHREE HARI GASES PRIVATE LIMITED",
+       "no": "E- 106, Road No. 7, V.K.I. Area Near Om Toyota Showroom Jaipur302013",
+        "link": "Take Aadhar card and and patient prescription"
+      },
       {"name": "Wilson gases",
        "no": "9829057251",
-        "link": "verified @23/04 1am"
+        "link": "B-312 A, Rd No. 16, Vishwakarma Industrial Area, Jaipur, Rajasthan 302013, ,Take Aadhar card and and patient prescription,verified @23/04 1am"
       },
       {"name": "oxygen jaipur",
        "no": "7291811136",
@@ -2639,7 +2752,24 @@
             "link": "verified @22/04 2:55pm"
           }],
         "ambulance":[],
-        "oxygen" : [{
+        "oxygen" : [
+      {"name": "Umang Gupta",
+       "no": "7985121201/7860143575",
+        "link": ""
+      },
+      {"name": "Medicine spot",
+       "no": "7860100001",
+        "link": ""
+      },
+      {"name": "Lovely Gas Company",
+       "no": "9889629140",
+        "link": ""
+      },
+      {"name": "Baba Oxygen",
+       "no": "9140301978",
+        "link": ""
+      },
+      {
           "name": "Harsh",
           "no": "9453825233",
           "link": ""
@@ -2654,7 +2784,12 @@
             "no": "8953700003",
             "link": ""
           }],
-        "plasma" : [],
+        "plasma" : [
+      {"name": "Sanjay Sachan",
+       "no": "9336200355",
+        "link": ""
+      }
+          ],
         "remdesivir":[],
         "doctor" :[],
         "test" : [{
