@@ -492,6 +492,10 @@
           "no": "https://coronabeds.jantasamvad.org/",
           "link": "only gov hospital"
         },
+     {"name": "Live delhi Private hospital Detail",
+       "no": "",
+        "link": "https://coviddelhi.com/"
+      },
       {"name": "ICU at home",
        "no": "+91 8506832841",
         "link": "@75000 for 5 days, includes 24hr nurse, 3time/day doctor, oxygen "
@@ -1106,7 +1110,11 @@
       {
         "did" : 2,
         "dname" : "Nagpur",
-        "beds" : [
+        "beds" :[
+     {"name": "Kunal",
+       "no": "9970965799",
+        "link": "Oxy beds available, verified @26/4 10:20am"
+      },
       {"name": "City hospital",
        "no": "-",
         "link": "14 oxy beds available,25 km from main city, verified @26/4 1:30"
@@ -1658,6 +1666,10 @@
       {"name": "Live Beds tracker",
        "no": "",
        "link": "http://sarthak.nhmmp.gov.in/covid/facility-bed-occupancy-details/"
+      },
+      {"name": "Kaya Hospital",
+       "no": "8770370287",
+        "link": "Gwalior, verified @26/4 2pm"
       },
           {
           "name": "SR memorial hospital",
